@@ -3,4 +3,15 @@ name = "fucking-weeb-rs"
 version = "0.1.0"
 authors = ["Stefan Müller <s.mueller@it.kls-glt.de>"]
 
-[dependencies]
+[dependencies.gtk]
+version = "0.1.1"
+features = ["v3_16"]
+
+[dependencies.gtk-sys]
+version = "0.3.2"
+
+[dependencies.gdk-sys]
+version = "0.3.2"
+
+[dependencies.glib]
+version = "0.1.1"
